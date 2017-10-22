@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangLab.Dictionary.Contracts", "LangLab.Dictionary.Contracts\LangLab.Dictionary.Contracts.csproj", "{12B240C5-64F1-44C7-B0EA-C1FEE10B85F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", "{EF139A6E-42BC-45E5-A3D6-90AB5AC48E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangLab.Dictionary.Services", "LangLab.Dictionary.Services\LangLab.Dictionary.Services.csproj", "{F3E51D85-1C3E-4C39-A221-DB8EC66FE6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangLab.Dictionary.Stores", "LangLab.Dictionary.Stores\LangLab.Dictionary.Stores.csproj", "{856EDA6E-64F1-45AE-B133-EDC34BDCEA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LangLab.Core", "LangLab.Core\LangLab.Core.csproj", "{0E3A606B-1D1C-4847-A474-90C9EC7FEA09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8960C155-3540-432E-A4F2-C4AC724B43AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B240C5-64F1-44C7-B0EA-C1FEE10B85F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B240C5-64F1-44C7-B0EA-C1FEE10B85F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B240C5-64F1-44C7-B0EA-C1FEE10B85F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B240C5-64F1-44C7-B0EA-C1FEE10B85F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E51D85-1C3E-4C39-A221-DB8EC66FE6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E51D85-1C3E-4C39-A221-DB8EC66FE6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E51D85-1C3E-4C39-A221-DB8EC66FE6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E51D85-1C3E-4C39-A221-DB8EC66FE6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856EDA6E-64F1-45AE-B133-EDC34BDCEA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856EDA6E-64F1-45AE-B133-EDC34BDCEA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856EDA6E-64F1-45AE-B133-EDC34BDCEA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856EDA6E-64F1-45AE-B133-EDC34BDCEA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3A606B-1D1C-4847-A474-90C9EC7FEA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3A606B-1D1C-4847-A474-90C9EC7FEA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3A606B-1D1C-4847-A474-90C9EC7FEA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3A606B-1D1C-4847-A474-90C9EC7FEA09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12B240C5-64F1-44C7-B0EA-C1FEE10B85F6} = {EF139A6E-42BC-45E5-A3D6-90AB5AC48E09}
+		{F3E51D85-1C3E-4C39-A221-DB8EC66FE6E1} = {EF139A6E-42BC-45E5-A3D6-90AB5AC48E09}
+		{856EDA6E-64F1-45AE-B133-EDC34BDCEA4C} = {EF139A6E-42BC-45E5-A3D6-90AB5AC48E09}
+		{0E3A606B-1D1C-4847-A474-90C9EC7FEA09} = {8960C155-3540-432E-A4F2-C4AC724B43AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4897F955-C1A8-4777-B323-D5BD39F3D7D1}
+	EndGlobalSection
+EndGlobal
